@@ -5,6 +5,8 @@ The MVC pattern was used as practice to set up this style of controllers, as wel
 
 Testing of the controllers was set up using Xunit to automate checking of response types.
 
+The Supabase Docker image was used to create a testable docker database, rather than connecting to the actual project.
+
 ## The Models - Jobs
 
 The table in question contained a model for the table items as:
